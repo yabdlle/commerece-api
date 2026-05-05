@@ -9,14 +9,6 @@ import java.math.BigDecimal
 import java.time.Instant
 import java.util.UUID
 
-enum class OrderStatus {
-    PENDING,
-    CONFIRMED,
-    SHIPPED,
-    DELIVERED,
-    CANCELLED,
-}
-
 @Entity
 @Table(name = "orders")
 data class Order(
