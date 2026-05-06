@@ -3,9 +3,9 @@ package com.mod.commerce.service
 import com.mod.commerce.domain.model.User
 import com.mod.commerce.repository.UserRepository
 import org.springframework.stereotype.Service
-import java.time.Instant
-import java.util.UUID
 
+import java.util.UUID
+import java.time.Instant
 @Service
 class UserService(
     private val userRepository: UserRepository

@@ -1,4 +1,4 @@
-package com.mod.commerce.domain.repository
+package com.mod.commerce.repository
 
 import com.mod.commerce.domain.model.Order
 import com.mod.commerce.domain.model.OrderStatus
